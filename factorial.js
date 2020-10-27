@@ -10,7 +10,7 @@ function factorial(number) {
     return result;
   } else {
     for (let counter = number; counter > 1; counter -= 1) {
-      result = counter;
+      result *= counter;
     }
     return result;
   }
